@@ -244,17 +244,20 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 #zio {
   color: #ffffff;
   border: solid 3px #ffffff;
   background-color: #fdc074;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 1.5rem;
   padding: 16px 4px;
   margin-top: 1rem;
   border-radius: 50px;
   width: 300px;
+  cursor: pointer;
+  text-decoration: none;
 
   /* width: 200px;
     height: 200px; */
@@ -267,6 +270,12 @@ button:hover {
   -ms-animation: pulse 3s infinite ease-in-out;
   -moz-animation: pulse 3s infinite ease-in-out;
   animation: pulse 3s infinite ease-in-out;
+}
+#zio:hover {
+  background-color: #ffffff;
+  color: #fdc074;
+  border: solid 3px #fdc074;
+  text-decoration: none;
 }
 
 /* <!--AVAILABLE ANIMATION--!> */
