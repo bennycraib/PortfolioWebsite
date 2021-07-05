@@ -424,6 +424,7 @@ footer {
   padding-bottom: 7rem;
   text-align: center;
   overflow: hidden;
+  width: 100%;
 }
 .footer-contact {
   padding-bottom: 2rem;
@@ -620,4 +621,9 @@ footer #nav-links li a img:hover {
   .case-header {
     font-size: 1.6rem;
   }
+  .skills-container {
+    height: auto;
+  }
 }
+
+/* CASE STUDIES */
