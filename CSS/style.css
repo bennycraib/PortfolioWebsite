@@ -94,6 +94,7 @@ button:hover {
   background-color: #ffffff;
   color: #fdc074;
   border: solid 3px #fdc074;
+  cursor: pointer;
 }
 .heroimg {
   display: flex;
@@ -366,7 +367,7 @@ a {
 }
 .rda-mockup {
   /* width: 100%; */
-  height: 28rem;
+  height: 20rem;
   object-fit: contain;
 }
 .rda-mockup:hover,
@@ -376,12 +377,12 @@ a {
 }
 .cer-mockup {
   /* width: 100%; */
-  height: 19rem;
+  height: 15rem;
   object-fit: contain;
 }
 .tennant-mockup {
   /* width: 100%; */
-  height: 30rem;
+  height: 22rem;
   object-fit: contain;
   margin-right: 2rem;
 }
@@ -410,6 +411,12 @@ a {
   font-weight: 500;
   line-height: 2.7rem;
   padding-bottom: 1.2rem;
+  width: auto;
+}
+.skills-container p {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 300px;
 }
 .case-type {
   font-size: 1.4rem;
@@ -427,7 +434,7 @@ a {
 .skills-logos {
   height: 15rem;
   padding-bottom: 3rem;
-  transition: 10ms;
+  /* transition: 10ms; */
 }
 /* .skills-logos:hover {
   filter: brightness(0%) saturate(100%) invert(87%) sepia(61%) saturate(2389%)
