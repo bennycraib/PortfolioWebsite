@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   transition: 320ms;
+  text-decoration: none !important;
 }
 html {
   width: 100%;
@@ -244,6 +245,9 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+a {
   text-decoration: none;
 }
 #zio {
