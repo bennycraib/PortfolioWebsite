@@ -660,6 +660,12 @@ footer #nav-links li a img:hover {
 /* CASE STUDIES */
 
 /* REGULATOR  */
+.cer-background {
+  background-color: #005773;
+}
+.cer-background-alt {
+  background-color: #ffffff;
+}
 .body-CER {
   width: 100%;
   height: 100%;
@@ -738,9 +744,13 @@ p {
   background: #005773;
   padding: 0 10%;
 }
+.research-cer-alt {
+  background: #ffffff;
+  padding: 0 10%;
+}
 .stub-cer {
   background-color: #c8ea57;
-  height: 0.4rem;
+  height: 0.3rem;
   width: 3rem;
   margin-bottom: 1rem;
 }
@@ -749,7 +759,7 @@ p {
   text-align: left;
   color: #ffffff;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 300;
   justify-content: start;
 }
 .h3-cer + p {
@@ -758,6 +768,12 @@ p {
 .analysis-image {
   width: 90%;
   padding: 3rem 1rem;
+}
+.p-alt {
+  color: #005773;
+}
+.text-alt {
+  color: #005773;
 }
 /* CASE STUDY MEDIA QUERIES  */
 @media only screen and (max-width: 760px) {
