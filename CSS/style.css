@@ -588,8 +588,6 @@ footer #nav-links li a img:hover {
     .hi-there {
       font-size: 1.6rem;
     }
-    .arrow-container {
-    }
     .arrow-container-inside {
       height: 2rem;
     }
@@ -629,7 +627,43 @@ footer #nav-links li a img:hover {
     height: auto;
   }
 }
+.scrollToTopBtn {
+  display: flex;
+  justify-content: center;
+  background-color: #fdc074;
+  border: solid #ffffff 3px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 50px;
 
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all 0.5s ease;
+}
+
+.scrollToTopBtn:hover {
+  transform: scale(110%);
+  background-color: #fdc074;
+  color: #ffffff;
+  border: solid #ffffff 3px;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
 @media only screen and (max-width: 460px) {
   .rda-mockup {
     /* width: 100%; */
