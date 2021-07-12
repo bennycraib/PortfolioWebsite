@@ -326,13 +326,13 @@ a {
 .icon {
   display: flex;
   flex-direction: column;
-  height: 30rem;
+  height: 10rem;
   width: 100%;
 }
 
 .down-arrow {
   margin: 0 auto;
-  margin-top: 18rem;
+  /* margin-top: 18rem; */
   height: 5rem;
   /* padding-left: 3.8rem; */
 
@@ -589,7 +589,6 @@ footer #nav-links li a img:hover {
       font-size: 1.6rem;
     }
     .arrow-container {
-      height: 13rem;
     }
     .arrow-container-inside {
       height: 2rem;
