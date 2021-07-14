@@ -31,6 +31,14 @@ body {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+.less-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 body {
   min-height: 100vw;
   display: flex;
@@ -175,6 +183,7 @@ button:hover {
 }
 .problem-solution-header {
   padding-top: 2rem;
+  font-size: 4rem;
 }
 .problem-solution-header,
 p {
@@ -189,6 +198,10 @@ p {
 .cer-header-mockup {
   width: 100vw;
 }
+.sitemap-mockup {
+  width: 80vw;
+}
+
 .research-cer {
   background: #005773;
   padding: 0 10%;
@@ -207,7 +220,7 @@ p {
   display: flex;
   text-align: left;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   justify-content: start;
 }
@@ -215,7 +228,7 @@ p {
   display: flex;
   text-align: center;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   justify-content: center;
 }
@@ -226,8 +239,10 @@ p {
   width: 100%;
   height: auto;
   margin: 2rem .5rem;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   object-fit: contain;
+}
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .p-alt {
@@ -237,10 +252,18 @@ p {
   color: #005773;
 }
 .body-large {
-    font-size: 1.2rem;
+    font-size: 2rem;
+}
+.body-large-300 {
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 .body-large-alt {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: #005773;
+}
+.body-large-alt-300 {
+    font-size: 1.5rem;
     color: #005773;
 }
 .body-regular {
@@ -320,6 +343,9 @@ footer {
     }
     .hero-h3 {
       margin-bottom: 2rem;
+    }
+    .problem-solution-header {
+      font-size: 3rem;
     }
   }
   @media only screen and (max-width: 1080px) {
