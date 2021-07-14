@@ -241,6 +241,12 @@ p {
   margin: 2rem .5rem;
   object-fit: contain;
 }
+.analysis-image-wireframe {
+  width: 100%;
+  height: 500px;
+  margin: 2rem .5rem;
+  object-fit: contain;
+}
 .box-shadow {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -384,6 +390,11 @@ footer {
         border: solid 3px #fdc074;
         cursor: pointer;
         /* margin-left: 3rem; */
+      }
+      /* @media only screen and (max-width: 770px) { 
+        .wireframe-mobile {
+        
+        } */
       }
 @media only screen and (max-width: 760px) {
   .hero-h2-cer {
