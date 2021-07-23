@@ -72,6 +72,12 @@ header {
   color: #299ac7;
   font-weight: 500;
 }
+.logo a {
+  color: inherit;
+}
+.logo a:hover {
+  color: #fdc074;
+}
 
 .nav-links {
   list-style: none;
@@ -182,7 +188,7 @@ button:hover {
   width: auto;
 }
 .problem-solution-header {
-  padding-top: 2rem;
+  padding-top: 5rem;
   font-size: 4rem;
 }
 .problem-solution-header,
@@ -259,6 +265,7 @@ p {
 }
 .body-large {
     font-size: 2rem;
+    color: #ffffff;
 }
 .body-large-300 {
     font-size: 1.5rem;
@@ -425,6 +432,7 @@ footer {
   }
   .problem-solution-header {
     margin: 1rem 0;
+    padding-top: 2rem;
     padding-bottom: 0;
   }
   .problem-solution-header + p {
