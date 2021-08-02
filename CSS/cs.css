@@ -388,13 +388,13 @@ footer {
         font-size: 1.5rem;
       }
       button {
-        background-color: #fdc074;
+        background-color: #299ac7;
         color: #ffffff;
         font-size: 1rem;
         font-weight: 500;
         border-radius: 50px;
         padding: 10px 20px;
-        border: solid 3px #fdc074;
+        border: solid 3px #299ac7;
         cursor: pointer;
         /* margin-left: 3rem; */
       }
