@@ -366,6 +366,20 @@ a {
   justify-content: center;
   margin-bottom: 8rem;
 }
+.litely-mockup {
+  /* width: 100%; */
+  height: 23rem;
+  object-fit: contain;
+  transform: rotate(40deg);
+}
+.litely-mockup:hover {
+  transform: scale(110%) rotate(40deg);
+}
+.rda-mockup:hover,
+.cer-mockup:hover,
+.tennant-mockup:hover {
+  transform: scale(110%);
+}
 .rda-mockup {
   /* width: 100%; */
   height: 20rem;

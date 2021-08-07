@@ -131,6 +131,10 @@
     background-color: #6F56A5;
     padding-bottom: 5rem;
   }
+  .cer-background-tight {
+    background-color: #6F56A5;
+    padding-bottom: 0rem;
+  }
   .cer-background-alt {
     background-color: #ffffff;
     padding-bottom: 5rem;
@@ -284,6 +288,10 @@
       font-size: 1.5rem;
       font-weight: 300;
   }
+  .body-large-300-tight {
+      font-size: 1.2rem;
+      font-weight: 300;
+  }
   .body-large-alt {
       font-size: 2rem;
       color: #6F56A5;
@@ -391,6 +399,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+      }
+      .section-line-bottom{
+        margin-bottom: 3rem;
       }
     
       @media only screen and (max-width: 580px) {
