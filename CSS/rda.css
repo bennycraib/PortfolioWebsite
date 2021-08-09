@@ -257,6 +257,12 @@
     margin: 2rem .5rem;
     object-fit: contain;
   }
+  .analysis-image-tight {
+    width: 100%;
+    height: auto;
+    margin: 0rem .5rem;
+    object-fit: contain;
+  }
   .analysis-image-alt {
     width: 70%;
     height: auto;
