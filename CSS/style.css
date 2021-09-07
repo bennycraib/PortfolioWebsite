@@ -371,6 +371,7 @@ a {
   height: 23rem;
   object-fit: contain;
   transform: rotate(40deg);
+  overflow: hidden;
 }
 .litely-mockup:hover {
   transform: scale(110%) rotate(40deg);
