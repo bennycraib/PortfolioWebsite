@@ -556,13 +556,13 @@ footer #nav-links li a img:hover {
       font-size: 1.5rem;
     }
     button {
-      background-color: #fdc074;
+      background-color: #0055ff;
       color: #ffffff;
       font-size: 1rem;
       font-weight: 500;
       border-radius: 50px;
       padding: 10px 20px;
-      border: solid 3px #fdc074;
+      border: solid 3px #0055ff;
       cursor: pointer;
       /* margin-left: 3rem; */
     }
@@ -644,7 +644,7 @@ footer #nav-links li a img:hover {
 .scrollToTopBtn {
   display: flex;
   justify-content: center;
-  background-color: #fdc074;
+  background-color: #0055ff;
   border: solid #ffffff 3px;
   border-radius: 50%;
   color: white;
@@ -669,7 +669,7 @@ footer #nav-links li a img:hover {
 
 .scrollToTopBtn:hover {
   transform: scale(110%);
-  background-color: #fdc074;
+  background-color: #0055ff;
   color: #ffffff;
   border: solid #ffffff 3px;
 }
