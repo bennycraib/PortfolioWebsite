@@ -17,7 +17,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #299ac7;
+  background-color: #171414;
   overscroll-behavior: none;
 }
 body {
@@ -32,13 +32,13 @@ body {
   --h1: 2rem;
   --h2: 1.5rem;
   --body: 1.25rem;
-  --primary: #299ac7;
+  --primary: #171414;
   --accent: #fdc074;
   --primary-accent: #011f26;
 }
 
 header {
-  background: #299ac7;
+  background: #171414;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -77,13 +77,13 @@ header {
 }
 
 button {
-  background-color: #fdc074;
+  background-color: #0055ff;
   color: #ffffff;
   font-size: 1.2rem;
   font-weight: 500;
   border-radius: 50px;
   padding: 16px 30px;
-  border: solid 3px #fdc074;
+  border: solid 3px #ffffff;
   cursor: pointer;
   /* margin-left: 3rem; */
 }
@@ -93,8 +93,8 @@ button {
 
 button:hover {
   background-color: #ffffff;
-  color: #fdc074;
-  border: solid 3px #fdc074;
+  color: #0055ff;
+  border: solid 3px #0055ff;
   cursor: pointer;
 }
 .heroimg {
@@ -158,7 +158,6 @@ button:hover {
   justify-content: center;
   align-self: center;
   display: inline-block;
-  margin-bottom: 2rem;
 }
 /* .ben-craib,
 .ux,
@@ -184,7 +183,7 @@ button:hover {
   font-weight: 500;
 }
 .stub {
-  background-color: #fdc074;
+  background-color: #0055ff;
   height: 0.5rem;
   width: 3rem;
   margin: 12px 0px;
@@ -462,7 +461,7 @@ footer {
   align-items: center;
   justify-content: center;
   text-emphasis: center;
-  background: #011f26;
+  background: #070707;
   min-height: 400px;
   margin-top: auto;
   padding-top: 7rem;
